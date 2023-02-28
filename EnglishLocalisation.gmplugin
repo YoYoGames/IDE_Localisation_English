@@ -1,0 +1,24 @@
+{
+  "name": "EnglishLocalisation",
+  "bundle_version": "1.0",
+  "bundle_description": "English IDE localisations",
+  "required": false,
+  "github_url": "https://api.github.com/repos/YoYoGames/IDE_Localisation_English",
+  "plugins": [
+    {
+      "plugin_name": "EnglishLocalisation",
+      "localised_name": "english_localisation",
+      "plugin_version": "1.0",
+      "type": "Language",
+      "plugin_data": {
+        "languages": [
+            { "English": "english.csv" },
+            {"English": "english_dnd.csv" }
+        ]
+      },
+      "description": "English IDE localisations",
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ]
+}
